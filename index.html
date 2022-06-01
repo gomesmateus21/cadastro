@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/stilo.css">
+    <script src="js/main.js" defer="defer"></script>
+</head>
+<body>
+    <h1>
+        Cadastro
+    </h1>
+     <form class="formulario" onsubmit="enviarDados()">
+         
+         <div class="nome">        
+            <label for="nome">Nome Completo</label><br>         
+            <input type="text" id="nome" name="nome"><br>
+         </div>
+         <div class="email"> 
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+         </div>
+         <div class="data"> 
+            <label for="data">Data de Nascimento</label><br>
+            <input type="date" id="data" name="data"><br>
+         </div>
+         <div class="senha"> 
+            <label for="senha">Senha</label><br>
+            <input type="password" id="senha" name="senha"><br>
+         </div>
+        <div class="Enivar"> 
+            <input class="botao" type="submit" value="Enivar">
+         </div>
+     </form>
+</body>
+</html>

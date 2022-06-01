@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+    background-color: #33658A;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 4rem;
+    color: #F26419;
+    text-align: center;
+}
+
+.formulario{    
+    margin: 20vh auto;
+    text-align: center;
+    background-color: #2F4858 ;
+    width: 40vw;
+    padding: 30px, 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #0e1c25bb;
+
+}
+
+div{    
+    color: #F26419;
+    padding: 8px;
+    outline: none;      
+
+}
+
+input{    
+    width: 25vw;
+    outline: none;
+    color: #33658A;    
+}
+
+.botao{
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #F26419;
+    text-align: center;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px #f265198d;
+    
+}
